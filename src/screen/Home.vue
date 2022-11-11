@@ -26,7 +26,7 @@
           </div>
         </div>
       </router-link>
-      <router-link to="/html-editor">
+      <router-link :to="{ name: 'HtmlEditor' }">
         <div class="p-5">
           <div class="w-28 h-28 bg-slate-200 drop-shadow rounded-lg relative">
             <img
@@ -39,6 +39,25 @@
             >
               <div class="flex justify-center">
                 <h1 class="text-center text-xl">HTML Editor</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link :to="{ name: 'PiniaState' }">
+        <div class="p-5">
+          <div class="w-28 h-28 bg-slate-200 drop-shadow rounded-lg relative">
+            <img
+              class="z-0 absolute opacity-30"
+              src="@/assets/logo.svg"
+              alt=""
+            />
+            <div
+              class="z-10 absolute text-green-900 font-bold flex flex-col justify-center h-full text-center w-full"
+            >
+              <div class="flex justify-center">
+                <h1 class="text-center text-xl">Pinia State Management</h1>
               </div>
             </div>
           </div>

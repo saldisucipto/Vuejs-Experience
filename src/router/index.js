@@ -3,6 +3,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import CorouselScreen from "../screen/CorouselScreen.vue";
 import HtmlEditor from "../screen/HtmlEditor.vue";
 import HomePages from "../screen/Home.vue";
+import PiniaState from "../screen/PiniaState.vue";
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: "/html-editor",
     name: "HtmlEditor",
     component: HtmlEditor,
+  },
+  {
+    path: "/pinia-state",
+    name: "PiniaState",
+    component: PiniaState,
   },
 ];
 
