@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import CorouselScreen from "../screen/CorouselScreen.vue";
+import HtmlEditor from "../screen/HtmlEditor.vue";
 import HomePages from "../screen/Home.vue";
 
 const routes = [
@@ -13,6 +14,11 @@ const routes = [
     path: "/corousel",
     name: "CorouselScreen",
     component: CorouselScreen,
+  },
+  {
+    path: "/html-editor",
+    name: "HtmlEditor",
+    component: HtmlEditor,
   },
 ];
 
